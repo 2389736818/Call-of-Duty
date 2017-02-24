@@ -151,16 +151,16 @@ public void OnButtonPress(client, button, flags)
           CreateMine(client);
           if(i_SapperMina[client] > 0)
           {
-            PrintToChat(client, "%s Počet zbývajících min %i", CHAT_TAG, i_SapperMina[client]);
+            PrintToChat(client, "%s 剩余分钟数 %i", CHAT_TAG, i_SapperMina[client]);
           }
           else
           {
-            PrintToChat(client, "%s Vyházel jsi všechny miny", CHAT_TAG);
+            PrintToChat(client, "%s 你扔掉了所有的地雷, CHAT_TAG);
           }
         }
         else
         {
-          PrintToChat(client, "%s Došly ti miny!", CHAT_TAG);
+          PrintToChat(client, "%s 我碰到地雷!", CHAT_TAG);
         }
       }
     }
