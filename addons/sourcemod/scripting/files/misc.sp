@@ -82,7 +82,7 @@ public void Client_ChangeClassTo(int client, ClassType type)
     {
       i_gCurrentClass[client] = type;
       Class_SetUp(client);
-      PrintToChat(client, "%s Nyní jsi %s!", CHAT_TAG, ClassNames[view_as<int>(type)]);
+      PrintToChat(client, "%s Now you %s!", CHAT_TAG, ClassNames[view_as<int>(type)]);
       if(i_Settings[client][Settings_FastMenu] == 0)
       {
         Menu_Cod(client);
@@ -91,13 +91,13 @@ public void Client_ChangeClassTo(int client, ClassType type)
     else
     {
       i_gChangeClassTo[client] = type;
-      PrintToChat(client, "%s Tvoje class se změní na začátku příštího kola na %s!", CHAT_TAG, ClassNames[view_as<int>(type)]);
+      PrintToChat(client, "%s Your class is changed at the start of the next round to %s!", CHAT_TAG, ClassNames[view_as<int>(type)]);
     }
   }
   else
   {
     i_gCurrentClass[client] = type;
-    PrintToChat(client, "%s Změnil sis class na %s!", CHAT_TAG, ClassNames[view_as<int>(type)]);
+    PrintToChat(client, "%s You changed the class to %s!", CHAT_TAG, ClassNames[view_as<int>(type)]);
   }
 }
 stock void SetCvarStr(char[] scvar, char[] svalue)
