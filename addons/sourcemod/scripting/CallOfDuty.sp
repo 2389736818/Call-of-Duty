@@ -55,6 +55,8 @@ public void OnPluginStart()
 }
 public void OnMapStart()
 {
+  LoadTranslations("CallOfDuty.phrases");
+
   i_ExplosionIndex = PrecacheModel("sprites/blueglow2.vmt");
   i_SmokeIndex = PrecacheModel("sprites/steam1.vmt");
   iBlood = PrecacheDecal("sprites/blood.vmt");
@@ -151,16 +153,16 @@ public void OnButtonPress(client, button, flags)
           CreateMine(client);
           if(i_SapperMina[client] > 0)
           {
-            PrintToChat(client, "%s 剩余分钟数 %i", CHAT_TAG, i_SapperMina[client]);
+            PrintToChat(client, "[Call of Duty] %s %t %i", "The number of minutes left", CHAT_TAG, i_SapperMina[client]);
           }
           else
           {
-            PrintToChat(client, "%s 你扔掉了所有的地雷, CHAT_TAG);
+            PrintToChat(client, "[Call of Duty] %s %t", "You throw away all the mines", CHAT_TAG);
           }
         }
         else
         {
-          PrintToChat(client, "%s 我碰到地雷!", CHAT_TAG);
+          PrintToChat(client, "[Call of Duty] %s %t", "There are mines", CHAT_TAG);
         }
       }
     }
@@ -174,16 +176,16 @@ public void OnButtonPress(client, button, flags)
           i_DemolitionsDynamit[client]--;
           if(i_DemolitionsDynamit[client] > 0)
           {
-            PrintToChat(client, "%s Počet zbývajících dynamitů %i", CHAT_TAG, i_DemolitionsDynamit[client]);
+            PrintToChat(client, "[Call of Duty] %s %t %i", "The number of remaining dynamites", CHAT_TAG, i_DemolitionsDynamit[client]);
           }
           else
           {
-            PrintToChat(client, "%s Odpálil jsi všechny dynamity", CHAT_TAG);
+            PrintToChat(client, "[Call of Duty] %s %t", "You detonated all the explosives", CHAT_TAG);
           }
         }
         else
         {
-          PrintToChat(client, "%s Nemáš již žádný dynamit", CHAT_TAG);
+          PrintToChat(client, "[Call of Duty] %s %t", "You don't have any dynamite", CHAT_TAG);
         }
       }
     }
@@ -197,16 +199,16 @@ public void OnButtonPress(client, button, flags)
           i_FireSupportMissiles[client]--;
           if(i_FireSupportMissiles[client] > 0)
           {
-            PrintToChat(client, "%s Počet zbývajících raket %i", CHAT_TAG, i_FireSupportMissiles[client]);
+            PrintToChat(client, "[Call of Duty] %s %t %i", "The number of remaining missiles", CHAT_TAG, i_FireSupportMissiles[client]);
           }
           else
           {
-            PrintToChat(client, "%s Vystřelil jsi všechny rakety", CHAT_TAG);
+            PrintToChat(client, "[Call of Duty] %s %t", "You're fired rockets", CHAT_TAG);
           }
         }
         else
         {
-          PrintToChat(client, "%s Nemáš již žádné rakety.", CHAT_TAG);
+          PrintToChat(client, "[Call of Duty]%s  %t", "You don't have no more missiles", CHAT_TAG);
         }
       }
     }
@@ -220,16 +222,16 @@ public void OnButtonPress(client, button, flags)
           i_GhostKnifes[client]--;
           if(i_GhostKnifes[client] > 0)
           {
-            PrintToChat(client, "%s Počet zbývajících nožů %i", CHAT_TAG, i_GhostKnifes[client]);
+            PrintToChat(client, "[Call of Duty] %s %t %i", "The number of remaining knives", CHAT_TAG, i_GhostKnifes[client]);
           }
           else
           {
-            PrintToChat(client, "%s Vyházel jsi všechny nože", CHAT_TAG);
+            PrintToChat(client, "[Call of Duty] %s %t", "You threw away all the knives", CHAT_TAG);
           }
         }
         else
         {
-          PrintToChat(client, "%s Nemáš již žádné házecí nože", CHAT_TAG);
+          PrintToChat(client, "[Call of Duty] %s %t", "You do not have no more throwing knives", CHAT_TAG);
         }
       }
     }
