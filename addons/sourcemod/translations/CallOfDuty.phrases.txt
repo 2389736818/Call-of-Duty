@@ -1,0 +1,62 @@
+"Phrases"
+{
+	"The number of minutes left"
+	{
+		"en"		"The number of minutes left"
+	}
+
+	"You throw away all the mines"
+	{
+		"en"		"You throw away all the mines"
+	}
+
+	"There are mines"
+	{
+		"en"		"There are mines!"
+	}
+
+	"The number of remaining dynamites"
+	{
+		"en"		"The number of remaining dynamites"
+	}
+	
+	"You detonated all the explosives"
+	{
+		"en"		"You detonated all the explosives"
+	}
+
+	"You don't have any dynamite"
+	{
+		"en"		"You don't have any dynamite"
+	}
+
+	"The number of remaining missiles"
+	{
+		"en"		"The number of remaining missiles"
+	}
+
+	"You're fired rockets"
+	{
+		"en"		"You're fired rockets"
+	}
+
+	"You don't have no more missiles"
+	{
+		"en"		"You don't have no more missiles"
+	}
+
+	"The number of remaining knives"
+	{
+		"en"		"The number of remaining knives"
+	}
+
+	"You threw away all the knives"
+	{
+		"en"		"You threw away all the knives"
+	}
+
+	"You do not have no more throwing knives"
+	{
+		"en"		"You do not have no more throwing knives"
+	}
+}
