@@ -38,13 +38,13 @@ public void Menu_ClassList(int client)
 public void Menu_Cod(int client)
 {
   Menu menu = CreateMenu(m_Cod);
-  menu.SetTitle("Herní menu (/cod)");
-  menu.AddItem("class", "Změnit postavu");
-  menu.AddItem("classinfo", "Popis postav");
-  menu.AddItem("iteminfo", "Popis Itemů");
-  menu.AddItem("gameinfo", "Popis hry");
-  menu.AddItem("settings", "Nastavení");
-  menu.AddItem("vip", "VIP Aktivace");
+  menu.SetTitle("Game Menu (/cod)");
+  menu.AddItem("class", "Change character");
+  menu.AddItem("classinfo", "List of characters");
+  menu.AddItem("iteminfo", "Item Description");
+  menu.AddItem("gameinfo", "Game Description");
+  menu.AddItem("settings", "Settings");
+  menu.AddItem("vip", "VIP Activation");
   menu.ExitButton = true;
   menu.Display(client, MENU_TIME_FOREVER);
 }
