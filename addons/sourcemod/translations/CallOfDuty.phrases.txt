@@ -59,4 +59,174 @@
 	{
 		"en"		"You do not have no more throwing knives"
 	}
+
+	"You not have this item! Kill enemy to get on the item"
+	{
+		"en"		"You not have this item! Kill enemy to get on the item"
+	}
+
+	"Shoes – your steps do not hear"
+	{
+		"en"		"Shoes – your steps do not hear"
+	}
+
+	"2x Vesta – you Get dual vest"
+	{
+		"en"		"2x Vesta – you Get dual vest"
+	}
+
+	"Special vest – more resistant to shells and explosions"
+	{
+		"en"		"Special vest – more resistant to shells and explosions"
+	}
+
+	"Veteran Knife – intervention with knife causes double damage"
+	{
+		"en"		"Veteran Knife – intervention with knife causes double damage"
+	}
+
+	"Shock enemy - When you attack someone in the back, injuries are 2 times stronger"
+	{
+		"en"		"Shock enemy - When you attack someone in the back, injuries are 2 times stronger"
+	}
+
+	"Ninja Cloak - You're partially invisible"
+	{
+		"en"		"Ninja Cloak - You're partially invisible"
+	}
+
+	"Morphine - 1/3 chance that you're born again after death"
+	{
+		"en"		"Morphine - 1/3 chance that you're born again after death"
+	}
+
+	"Ultra knife – any interference with knife kills enemy"
+	{
+		"en"		"Ultra knife – any interference with knife kills enemy"
+	}
+
+	"Deagle master – each hit with a knive causes 2 x damage"
+	{
+		"en"		"Deagle master – each hit with a knive causes 2x damage"
+	}
+
+	"Big Grenade - instantly killing the enemy with HE grenade"
+	{
+		"en"		"Big Grenade - instantly killing the enemy with HE grenade"
+	}
+
+	"Ninja step - by double jump"
+	{
+		"en"		"Ninja step - by double jump"
+	}
+
+	"Secret Mil - Your injuries are reduced by 1/3. Do you have a 1/3 chance of blinding enemy"
+	{
+		"en"		"Secret Mil - Your injuries are reduced by 1/3. Do you have a 1/3 chance of blinding enemy"
+	}
+
+	"AWP Sniper-Instant kills with AWP"
+	{
+		"en"		"AWP Sniper-Instant kills with AWP"
+	}
+
+	"Adrenalin – for each kill an opponent you get + 30HP"
+	{
+		"en"		"Adrenalin – for each kill an opponent you get + 30HP"
+	}
+
+	"Chuck - For each kill an opponent you refill a + 20HP"
+	{
+		"en"		"Chuck - For each kill an opponent you refill a + 20HP"
+	}
+
+	"YMaster XP - For each kill an opponent you get 2x more XP"
+	{
+		"en"		"Master XP - For each kill an opponent you get 2x more XP"
+	}
+
+	"NASA Vest – your armor will increase to 250, you can stand more!"
+	{
+		"en"		"NASA Vest – your armor will increase to 250, you can stand more!"
+	}
+
+	"Veteran – you'll get each wheel + 50HP and slow running"
+	{
+		"en"		"Veteran – you'll get each wheel + 50HP and slow running"
+	}
+
+	"First Aid - Press E immediately add HP"
+	{
+		"en"		"First Aid - Press E immediately add HP"
+	}
+
+	"Pluk switch - Each hit causes of + 15dmg more damage"
+	{
+		"en"		"Pluk switch - Each hit causes of + 15dmg more damage"
+	}
+
+	"Nanosuit - Pressing E 4 seconds to complete invisibility"
+	{
+		"en"		"Nanosuit - Pressing E 4 seconds to complete invisibility"
+	}
+
+	"Recruit - Get to the beginning of the round + 50HP and run slower"
+	{
+		"en"		"Recruit - Get to the beginning of the round + 50HP and run slower"
+	}
+
+	"Reflect Arm - 1/3 chances to repulse damage"
+	{
+		"en"		"Reflect Arm - 1/3 chances to repulse damage"
+	}
+
+	"CPT. book – immune to 3 enemy missiles"
+	{
+		"en"		"CPT. book – immune to 3 enemy missiles"
+	}
+
+	"Pressing E and SPACE you use Fly module with which you jump into the distance"
+	{
+		"en"		"Pressing E and SPACE you use Fly module with which you jump into the distance"
+	}
+
+	"AntiGravity - You have low gravity, high Pits"
+	{
+		"en"		"AntiGravity - You have low gravity, high Pits"
+	}
+
+	"Hat - After pressing E supplementation is completely HP to 250HP"
+	{
+		"en"		"Hat - After pressing E supplementation is completely HP to 250HP"
+	}
+
+	"Ghost Helm – you'll get immunity to 3 shots to the head"
+	{
+		"en"		"Ghost Helm – you'll get immunity to 3 shots to the head"
+	}
+
+	"BunnyHoper – you're jumping bunnyhop by holding the space bar"
+	{
+		"en"		"BunnyHoper – you're jumping bunnyhop by holding the space bar"
+	}
+
+	"M4 Style - Get the figure for M4 (Activation via E)"
+	{
+		"en"		"M4 Style - Get the figure for M4 (Activation via E)"
+	}
+
+	"Now you"
+	{
+		"en"		"Now you"
+	}
+
+	"Your class is changed at the start of the next round to"
+	{
+		"en"		"Your class is changed at the start of the next round to"
+	}
+
+	"You changed the class to"
+	{
+		"en"		"You changed the class to"
+	}
 }
