@@ -34,7 +34,7 @@ enum ClassType
 };
 char ClassNames[][] =
 {
-  "Žádná",  "Sniper",  "Rusher",  "Sharpshooter",  "Protector",  "Makarov",  "Fire Support",  "Demolition",  "Cpt.Soap",  "Ghost",  "Sapper",  "Commando",  "Rambo",  "Cpt.Price",  "Engineer"
+  "None",  "Sniper",  "Rusher",  "Sharpshooter",  "Protector",  "Makarov",  "Fire Support",  "Demolition",  "Cpt.Soap",  "Ghost",  "Sapper",  "Commando",  "Rambo",  "Cpt.Price",  "Engineer"
 };
 int ClassVIP[] =
 {
@@ -49,8 +49,8 @@ enum Item
 };
 char ItemNames[][] =
 {
-  "Žádný",  "Boty",  "2x Vesta",  "Speciální vesta",  "Veteran Knife",  "Shock enemy",  "Ninja Cloak",  "Morfin",  "Ultra knife",  "Deagle master",  "Big Grenade",  "Ninja step",  "Secret Mil",  "AWP Sniper",  "Adrenalin",  "Chuck",  "XP Master",
-  "NASA Vesta",  "Veteran",  "První pomoc",  "Titan box",  "Pluk switch", "Nanosuit",  "Recruit",  "Reflect Arm",  "Cpt.Book",  "Fly modul",  "AntiGravity",  "Klobouk",  "BunnyHoper", "M4 Style",  "Ghost Helm"
+  "None",  "Boty",  "2x Vesta",  "Speciální vesta",  "Veteran Knife",  "Shock enemy",  "Ninja Cloak",  "Morfin",  "Ultra knife",  "Deagle master",  "Big Grenade",  "Ninja step",  "Secret Mil",  "AWP Sniper",  "Adrenalin",  "Chuck",  "XP Master",
+  "NASA Vesta",  "Veteran",  "First aid",  "Titan box",  "Pluk switch", "Nanosuit",  "Recruit",  "Reflect Arm",  "Cpt.Book",  "Fly modul",  "AntiGravity",  "Klobouk",  "BunnyHoper", "M4 Style",  "Ghost Helm"
 };
 ClassType i_gCurrentClass[MAXPLAYERS+1] = Class_None;
 ClassType i_gChangeClassTo[MAXPLAYERS+1] = Class_None;
